@@ -18,8 +18,8 @@ prepare() {
 
 package() {
 
-	local target_dir=${pkgdir}/usr/share/backgrounds
-	mkdir -p "$target_dir"
-	cp -r ${srcdir}/* "$target_dir"
+	local backgrounds_dir=${pkgdir}/usr/share/backgrounds
+	mkdir -p "$backgrounds_dir"
+	cp -r ${srcdir}/* "$backgrounds_dir"
 
 }
