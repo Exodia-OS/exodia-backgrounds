@@ -1,2 +1,2 @@
-# exodia-themes
-backgrounds, themes, etc...
+# exodia-backgrounds
+
