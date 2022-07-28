@@ -21,12 +21,12 @@ trap exit_on_signal_SIGTERM SIGTERM
 # Build packages (create a binary package -> pkg.pkg.tar.zst)
 build_pkg () {
 
-    # echo -e "\nRemoving olda PKGs \n"
-    # rm ./*.pkg.tar.zst
+    echo -e "\nRemoving olda PKGs \n"
+    rm ./*.pkg.tar.zst
 	echo -e "\nBuilding Package...... \n"
 	makepkg -s -f
 	
-    # rm -rf src pkg
+    rm -rf src pkg
 }
 
 # Execute
