@@ -2,14 +2,15 @@
 # Maintainer: Mahmoud Mohamed (Ozil) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
-pkgname=exodia-backgrounds
+pkgname=tokyo-backgrounds
 pkgver=2.0
-pkgrel=2
+pkgrel=1
 pkgdesc="Backgrounds For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-backgrounds"
 license=('GPL3')
 groups=('exodia-backgrounds-all')
+
 prepare() {
 
 	cp -af ../backgrounds/. ${srcdir}
