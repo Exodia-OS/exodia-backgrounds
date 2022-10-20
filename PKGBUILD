@@ -4,7 +4,7 @@
 
 pkgname=exodia-backgrounds
 pkgver=2.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Backgrounds For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-backgrounds"
