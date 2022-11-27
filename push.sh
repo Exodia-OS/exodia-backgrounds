@@ -32,7 +32,7 @@ UBlue='\033[4;34m'  UPurple='\033[4;35m' UCyan='\033[4;36m'  UWhite='\033[4;37m'
 On_Black='\033[40m' On_Red='\033[41m'    On_Green='\033[42m' On_Yellow='\033[43m'
 On_Blue='\033[44m'  On_Purple='\033[45m' On_Cyan='\033[46m'  On_White='\033[47m'
 
-
+echo ""
 echo -e "${BCyan}#############################${Color_Off}"
 echo -e "${BCyan}#      Git Push Script      #${Color_Off}"
 echo -e "${BCyan}#############################${Color_Off}"
