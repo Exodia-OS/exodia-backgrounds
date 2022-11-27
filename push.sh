@@ -33,20 +33,20 @@ On_Black='\033[40m' On_Red='\033[41m'    On_Green='\033[42m' On_Yellow='\033[43m
 On_Blue='\033[44m'  On_Purple='\033[45m' On_Cyan='\033[46m'  On_White='\033[47m'
 
 
-echo -e "${BCyan}#############################"
-echo -e "${BCyan}#      Git Push Script      #"
-echo -e "${BCyan}#############################"
+echo -e "${BCyan}#############################${Color_Off}"
+echo -e "${BCyan}#      Git Push Script      #${Color_Off}"
+echo -e "${BCyan}#############################${Color_Off}"
 
 # get branch name (e.g master, main, etc... ) #
 Branch=$(git branch --show-current) 
 
-echo -e "\n${BRed}[*] Your Current Branch : ${BYellow}${Branch}"
+echo -e "\n${BRed}[*] Your Current Branch : ${BYellow}${Branch}${Color_Off}"
 
 # get new updates if it founded #
-echo -e "\n${BPurple}[+] Updating Repo... \n"
+echo -e "\n${BPurple}[+] Updating Repo... \n${Color_Off}"
 git pull 
 
-echo -e "\n${BPurple}[+] Adding new changes to the repo... \n"
+echo -e "\n${BPurple}[+] Adding new changes to the repo... \n${Color_Off}"
 git add --all .
 
 if [ "$1" == "-m" ];
@@ -57,8 +57,8 @@ then
 else
     # read commit comment from user #
     echo ""
-    echo "##################################"
-    echo "# Write your commit comment! :-  #"
+    echo -e "${BPurple}##################################${Color_Off}"
+    echo -e "${BPurple}# Write your commit comment! :-  #${Color_Off}"
     read yourCommit
 
     # commit changes#
@@ -71,4 +71,4 @@ echo ""
 git push -u origin $Branch
 
 # D O N E! #
-echo -e "\n${BGreen}[✔] D O N E \n"
+echo -e "\n${BGreen}[✔] D O N E \n${Color_Off}"
