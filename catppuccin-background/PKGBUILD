@@ -4,12 +4,12 @@
 
 pkgname=catppuccin-backgrounds
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Catppuccin Backgrounds For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-backgrounds"
 license=('GPL3')
-groups=('exodia-backgrounds-all')
+groups=('exodia-backgrounds')
 
 prepare() {
 
