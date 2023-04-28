@@ -20,7 +20,7 @@ prepare() {
 package() {
 
 	local backgrounds_dir=${pkgdir}/usr/share/backgrounds
-	mkdir -p "$backgrounds_dir"
-	cp -r ${srcdir}/* "$backgrounds_dir"
+	mkdir -p ${backgrounds_dir}
+	cp -r ${srcdir}/* ${backgrounds_dir}
 
 }

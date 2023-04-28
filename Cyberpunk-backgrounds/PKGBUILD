@@ -2,9 +2,9 @@
 # Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
-pkgname=extra-backgrounds
+pkgname=exodia-cyberpunk-backgrounds
 pkgver=1.0
-pkgrel=4
+pkgrel=1
 pkgdesc="Backgrounds For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-backgrounds"
