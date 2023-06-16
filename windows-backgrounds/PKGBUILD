@@ -1,0 +1,26 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=windows-backgrounds
+pkgver=1.0
+pkgrel=1
+pkgdesc="Windows OS Backgrounds For Exodia OS"
+arch=('any')
+url="https://github.com/Exodia-OS/exodia-backgrounds"
+license=('GPL3')
+groups=('exodia-backgrounds')
+
+prepare() {
+
+	cp -af ../backgrounds/. ${srcdir}
+
+}
+
+package() {
+
+	local backgrounds_dir=${pkgdir}/usr/share/backgrounds
+	mkdir -p ${backgrounds_dir}
+	cp -r ${srcdir}/* ${backgrounds_dir}
+
+}
