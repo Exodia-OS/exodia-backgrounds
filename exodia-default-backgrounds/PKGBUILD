@@ -3,7 +3,7 @@
 #
 
 pkgname=exodia-default-backgrounds
-pkgver=2.1
+pkgver=2.2
 pkgrel=9
 pkgdesc="Backgrounds For Exodia OS"
 arch=('any')
